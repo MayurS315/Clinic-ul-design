@@ -429,7 +429,7 @@ p{
 .footer_wrapper ul li a{
     color:var(--text-white);
 }
-.footer_wrapper ul li a,
+.footer_wrapper .link-widget` li a,
 .footer_wrapper p{
     color:var(--text-white);
     font-size:.875rem;
@@ -438,7 +438,7 @@ p{
     -webkit-transition:all 0.3s ease-out 0s;
     transition:all 0.3s ease-out 0s;
 }
-.footer_wrapper ul li a::before{
+.footer_wrapper .link-widget li a::before{
     content:'\f105';
     font-family: "Font Awesome 5 Free";
     font-weight:600;
